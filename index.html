@@ -1,7 +1,6 @@
 <html>
   <head>
     <title>Portfolio</title>
-    <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <div class="card">
@@ -17,7 +16,16 @@
        <li>Javascript</li>
       </ul>
     
-    <a href="mailto:gurpreetkaurkang13@gmail.com"><button id="btn">Contact Me</button></a>
+    <a href="mailto:gurpreetkaurkang13@gmail.com"><button id="btn">Contact Me</button></a><br><br>
+      <button onClick="sayHello()"> Greet Me</button>
+      <h3 id="greettext">Welcome to My Site</h3>
     </div>
+    <script>
+      function sayHello(){
+        
+        alert("Hii! How are you");
+        document.getElementById("greettext").innerText="Hey! You just Clicked the button";
+}
+    </script>
   </body>
 </html>
