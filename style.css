@@ -47,3 +47,20 @@
     
   }
 }
+
+.dark-theme{
+  color: #f1f1f1;
+  background-color: #222;
+}
+
+
+.dark-theme .card{
+  color: #f1f1f1;
+  background-color: #333;
+
+}
+
+.dark-theme .button{
+  background-color: #555;
+  color: white;
+}

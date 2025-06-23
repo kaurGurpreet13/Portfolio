@@ -19,6 +19,7 @@
     
     <a href="mailto:gurpreetkaurkang13@gmail.com"><button id="btn">Contact Me</button></a><br><br>
       <button onClick="sayHello()"> Greet Me</button>
+      <button onClick="toggleTheme()"> Toggle Dark Mode</button>
       <h3 id="greettext">Welcome to My Site</h3>
     </div>
     <script>
@@ -26,7 +27,13 @@
         
         alert("Hii! How are you");
         document.getElementById("greettext").innerText="Hey! You just Clicked the button";
-}
-    </script>
+      }
+
+      function toggleTheme(){
+
+        document.body.classList.toggle("dark-theme");
+
+      }  
+        </script>
   </body>
 </html>
